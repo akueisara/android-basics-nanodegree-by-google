@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BuildASingleScreenApp</string>
+    <string name="picture_of_the_restaurant">picture of the restaurant</string>
+    <string name="restaurant_name">New Pho Saigon &amp; Noodle Grill Restaurant</string>
+    <string name="description">We\'re OPEN LATE!\nSun - Thurs 8:30am - 2am\nFri &amp; Sat 8:30am - 3am.\n\"We serve the freshest Rice Noodle Soup daily\"\nOur menu includes: Beef, Chicken, Seafood Noodle Soup, Beef Stew Noodle Soup, Grilled Pork Chop Over Rice, Grilled Pork, Marinated Shrimp, Eggroll Vermicelli Bowl, Spring Rolls, Vietnamese Eggrolls.</string>
+    <string name="phone_number">(408) 262-1688</string>
+    <string name="address">1770 Clear Lake Ave, Milpitas, CA 95035</string>
+    <string name="icon_address">icon address</string>
+    <string name="icon_phone">icon phone</string>
+</resources>
