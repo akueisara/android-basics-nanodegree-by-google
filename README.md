@@ -1,7 +1,7 @@
 # Android Basics by Google
 Android Basics courses on Udacity
 
-## Project 1: [Build a Single Screen App](https://github.com/akueisara/android-basics-nanodegree-by-google/tree/master/QuizApp)
+## Project 1: [Build a Single Screen App](https://github.com/akueisara/android-basics-nanodegree-by-google/tree/master/BuildASingleScreenApp)
 ### Design and implement a simple app that displays information about a small business.
 The app displays information about my favorite Vietnamese restaurant. 
 
