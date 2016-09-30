@@ -1,4 +1,4 @@
-package com.example.android.musicstructure;
+package com.example.android.musicstructure.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,22 +6,24 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.example.android.musicstructure.R;
+
 /**
- * Created by akueisara on 9/25/2016.
+ * Created by akueisara on 9/29/2016.
  */
-public class StationActivity extends AppCompatActivity  {
+public class NowPlayingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_station);
+        setContentView(R.layout.activity_nowplaying);
         Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setTitle("Station Player");
-        TextView textView = (TextView) findViewById(R.id.textview_station);
-        String content = getIntent().getStringExtra("station");
-        textView.setText(content);
+        getSupportActionBar().setTitle("Now playing");
+        TextView textView = (TextView) findViewById(R.id.textview_nowplaying);
+        String song = getIntent().getStringExtra("song");
+        textView.setText(song);
     }
 
     @Override

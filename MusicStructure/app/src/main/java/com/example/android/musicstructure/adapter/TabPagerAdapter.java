@@ -4,12 +4,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.example.android.musicstructure.fragment.Album;
-import com.example.android.musicstructure.fragment.Artist;
-import com.example.android.musicstructure.fragment.Genre;
-import com.example.android.musicstructure.fragment.Playlist;
-import com.example.android.musicstructure.fragment.Song;
-import com.example.android.musicstructure.fragment.Station;
+import com.example.android.musicstructure.fragment.AlbumFragment;
+import com.example.android.musicstructure.fragment.ArtistFragment;
+import com.example.android.musicstructure.fragment.PlaylistFragment;
+import com.example.android.musicstructure.fragment.SongFragment;
 
 /**
  * Created by akueisara on 9/25/2016.
@@ -17,27 +15,21 @@ import com.example.android.musicstructure.fragment.Station;
 public class TabPagerAdapter extends FragmentStatePagerAdapter {
     public TabPagerAdapter(FragmentManager fm) {
         super(fm);
-        // TODO Auto-generated constructor stub
     }
 
     @Override
     public Fragment getItem(int i) {
         switch (i) {
             case 0:
-                //Fragement for Playlist Tab
-                return new Playlist();
+                //Fragement for PlaylistFragment Tab
+                return new PlaylistFragment();
             case 1:
-                //Fragment for Station Tab
-                return new Station();
+                //Fragment for ArtistFragment Tab
+                return new ArtistFragment();
             case 2:
-                //Fragment for Artist Tab
-                return new Artist();
+                return new AlbumFragment();
             case 3:
-                return new Album();
-            case 4:
-                return new Song();
-            case 5:
-                return new Genre();
+                return new SongFragment();
         }
         return null;
 
@@ -45,7 +37,6 @@ public class TabPagerAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
-        // TODO Auto-generated method stub
-        return 6; //No of Tabs
+        return 4; //No of Tabs
     }
 }
