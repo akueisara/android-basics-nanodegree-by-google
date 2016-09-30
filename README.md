@@ -25,3 +25,8 @@ The app implements a fun 5-question personality test.
 The app implements the structure of user's personal library.
 
 <img src="http://i.imgur.com/WkZt3A7.gif" width="270">
+
+## Project 5: [Report Card](https://github.com/akueisara/android-basics-nanodegree-by-google/tree/master/ReportCard)
+### Create a custom Java class to model the information in a student report card.
+The goal is to design and create the structure of a ReportCard Java Class which allows a school to store a student’s grades for a particular year.
+
