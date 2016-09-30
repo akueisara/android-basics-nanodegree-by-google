@@ -24,4 +24,4 @@ The app implements a fun 5-question personality test.
 ### Architect the user experience and technical design of an app to play music for a user.
 The app implements the structure of user's personal library.
 
-<img src="http://i.imgur.com/LYLclmQ.gif" width="270">
+<img src="http://i.imgur.com/WkZt3A7.gif" width="270">
