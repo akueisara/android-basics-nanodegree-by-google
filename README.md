@@ -15,7 +15,7 @@ The app tracks scores for American football games.
 
 ## Project 3: [Quiz App](https://github.com/akueisara/android-basics-nanodegree-by-google/tree/master/QuizApp)
 ### Design and implement a short quiz app about some topic you are familiar with.
-The app implements a fun 5-question personality test. 
+The app implements a 5-question Jaca quiz. 
 
 <img src="http://i.imgur.com/ue9SPwk.gif" width="270">
 
