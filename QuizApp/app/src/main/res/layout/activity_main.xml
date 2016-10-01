@@ -15,6 +15,18 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
+            android:text="Welcome to Quiz App!"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
             android:text="@string/title_q_1"
             android:textAllCaps="true"
             android:textColor="@android:color/black"
@@ -59,25 +71,6 @@
                 android:layout_marginLeft="6dp"
                 android:onClick="onCheckedQuestion1"
                 android:text="@string/option_q_1_3"
-                android:textSize="12sp" />
-
-            <RadioButton
-                android:id="@+id/button14"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:onClick="onCheckedQuestion1"
-                android:text="@string/option_q_1_4"
-                android:textSize="12sp" />
-
-            <RadioButton
-                android:id="@+id/button15"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:layout_weight="1"
-                android:onClick="onCheckedQuestion1"
-                android:text="@string/option_q_1_5"
                 android:textSize="12sp" />
         </RadioGroup>
 
@@ -130,24 +123,6 @@
                 android:layout_marginLeft="6dp"
                 android:onClick="onCheckedQuestion2"
                 android:text="@string/option_q_2_3"
-                android:textSize="12sp" />
-
-            <RadioButton
-                android:id="@+id/button24"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:onClick="onCheckedQuestion2"
-                android:text="@string/option_q_2_4"
-                android:textSize="12sp" />
-
-            <RadioButton
-                android:id="@+id/button25"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:onClick="onCheckedQuestion2"
-                android:text="@string/option_q_2_5"
                 android:textSize="12sp" />
 
         </RadioGroup>
@@ -203,23 +178,6 @@
                 android:text="@string/option_q_3_3"
                 android:textSize="12sp" />
 
-            <RadioButton
-                android:id="@+id/button34"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:onClick="onCheckedQuestion3"
-                android:text="@string/option_q_3_4"
-                android:textSize="12sp" />
-
-            <RadioButton
-                android:id="@+id/button35"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:onClick="onCheckedQuestion3"
-                android:text="@string/option_q_3_5"
-                android:textSize="12sp" />
 
         </RadioGroup>
 
@@ -241,58 +199,11 @@
             android:text="@string/content_q_4"
             android:textColor="@android:color/black" />
 
-        <RadioGroup
-            android:id="@+id/radiogroup4"
-            android:layout_width="wrap_content"
+        <EditText
+            android:id="@+id/edit_text_q4"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <RadioButton
-                android:id="@+id/button41"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:onClick="onCheckedQuestion4"
-                android:text="@string/option_q_4_1"
-                android:textSize="12sp" />
-
-            <RadioButton
-                android:id="@+id/button42"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:onClick="onCheckedQuestion4"
-                android:text="@string/option_q_4_2"
-                android:textSize="12sp" />
-
-            <RadioButton
-                android:id="@+id/button43"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:onClick="onCheckedQuestion4"
-                android:text="@string/option_q_4_3"
-                android:textSize="12sp" />
-
-            <RadioButton
-                android:id="@+id/button44"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:onClick="onCheckedQuestion4"
-                android:text="@string/option_q_4_4"
-                android:textSize="12sp" />
-
-            <RadioButton
-                android:id="@+id/button45"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:onClick="onCheckedQuestion4"
-                android:text="@string/option_q_4_5"
-                android:textSize="12sp" />
-
-        </RadioGroup>
+            android:layout_marginLeft="10dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -312,58 +223,43 @@
             android:text="@string/content_q_5"
             android:textColor="@android:color/black" />
 
-        <RadioGroup
-            android:id="@+id/radiogroup5"
+
+        <CheckBox
+            android:id="@+id/button51"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_marginLeft="6dp"
+            android:onClick="onCheckedQuestion5"
+            android:text="@string/option_q_5_1"
+            android:textSize="12sp" />
 
-            <RadioButton
-                android:id="@+id/button51"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:onClick="onCheckedQuestion5"
-                android:text="@string/option_q_5_1"
-                android:textSize="12sp" />
+        <CheckBox
+            android:id="@+id/button52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:onClick="onCheckedQuestion5"
+            android:text="@string/option_q_5_2"
+            android:textSize="12sp" />
 
-            <RadioButton
-                android:id="@+id/button52"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:onClick="onCheckedQuestion5"
-                android:text="@string/option_q_5_2"
-                android:textSize="12sp" />
+        <CheckBox
+            android:id="@+id/button53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:onClick="onCheckedQuestion5"
+            android:text="@string/option_q_5_3"
+            android:textSize="12sp" />
 
-            <RadioButton
-                android:id="@+id/button53"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:onClick="onCheckedQuestion5"
-                android:text="@string/option_q_5_3"
-                android:textSize="12sp" />
+        <CheckBox
+            android:id="@+id/button54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:onClick="onCheckedQuestion5"
+            android:text="@string/option_q_5_4"
+            android:textSize="12sp" />
 
-            <RadioButton
-                android:id="@+id/button54"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:onClick="onCheckedQuestion5"
-                android:text="@string/option_q_5_4"
-                android:textSize="12sp" />
-
-            <RadioButton
-                android:id="@+id/button55"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:onClick="onCheckedQuestion5"
-                android:text="@string/option_q_5_5"
-                android:textSize="12sp" />
-
-        </RadioGroup>
 
         <RelativeLayout
             android:layout_width="wrap_content"
