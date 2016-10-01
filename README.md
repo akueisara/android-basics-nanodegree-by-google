@@ -17,7 +17,7 @@ The app tracks scores for American football games.
 ### Design and implement a short quiz app about some topic you are familiar with.
 The app implements a fun 5-question personality test. 
 
-<img src="http://akueisara.github.io/img/quizapp.gif">
+<img src="http://i.imgur.com/ue9SPwk.gif" width="270">
 
 
 ## Project 4: [Musical Structure App](https://github.com/akueisara/android-basics-nanodegree-by-google/tree/master/MusicStructure)
