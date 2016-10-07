@@ -31,9 +31,15 @@ The app implements the structure of user's personal library.
 The goal is to design and create the structure of a ReportCard Java Class which allows a school to store a student’s grades for a particular year.
 
 
-## Project 6: [Tour guide app](https://github.com/akueisara/android-basics-nanodegree-by-google/tree/master/TourGuide)
+## Project 6: [Tour Guide App](https://github.com/akueisara/android-basics-nanodegree-by-google/tree/master/TourGuide)
 ### Create an app to guide a user around a city or location of your choice!
 The app implements a simple list of Taiwan attractions.
 
 <img src="http://i.imgur.com/C4VAitm.gif" width="270">
+
+## Project 7: [Book Listing App](https://github.com/akueisara/android-basics-nanodegree-by-google/tree/master/BookListingApp)
+### Create an app to list the published books on a given topic using the Google Books API.
+The app implements a simple search engine for books by using Google Books API.
+
+<img src="http://i.imgur.com/iCGDd30.gif" width="270">
 
