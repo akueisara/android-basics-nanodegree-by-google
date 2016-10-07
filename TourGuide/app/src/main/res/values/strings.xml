@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Taiwan City Tour Guide</string>
+
+    <!-- Taipei Attractions -->
+    <string name="taipei_attraction_name_1">Elephant Mountain</string>
+    <string name="taipei_attraction_phone_1">+886-906-335-9497</string>
+    <string name="taipei_attraction_address_1">Lane 150, Songren Rd., Xinyi Dist., Taipei, Taiwan</string>
+    <string name="taipei_attraction_imageurl_1">http://i.imgur.com/pxogEem.jpg</string>
+    <string name="taipei_attraction_name_2">Longshan Temple</string>
+    <string name="taipei_attraction_phone_2">+886-2-230-25162</string>
+    <string name="taipei_attraction_address_2">No.211 Guangzhou Street,Wanhua District, Taipei, Taipei 211, Taiwan</string>
+    <string name="taipei_attraction_imageurl_2">http://i.imgur.com/Uw1KVI8.jpg</string>
+    <string name="taipei_attraction_name_3">Maokong Gondola</string>
+    <string name="taipei_attraction_phone_3">+886-2-2181-2345</string>
+    <string name="taipei_attraction_address_3">No.8, Sec. 2, Xinguang Rd., Wenshan Dist., Taipei City 116, Taiwan</string>
+    <string name="taipei_attraction_imageurl_3">http://i.imgur.com/HtIkMzY.jpg</string>
+    <string name="taipei_attraction_name_4">Chiang Kai-Shek Memorial Hall</string>
+    <string name="taipei_attraction_phone_4">+886-2-2343-1100</string>
+    <string name="taipei_attraction_address_4">21 Chung-Shan S Rd, Taipei, Taiwan</string>
+    <string name="taipei_attraction_imageurl_4">http://i.imgur.com/wdZEDr3.jpg</string>
+    <string name="taipei_attraction_name_5">National Palace Museum</string>
+    <string name="taipei_attraction_phone_5">+886-2-2881-2021</string>
+    <string name="taipei_attraction_address_5">221 Chih-shan Rd., Sec. 2; Shih-lin, Taipei 11143, Taiwan</string>
+    <string name="taipei_attraction_imageurl_5">http://i.imgur.com/KelW5Y8.jpg</string>
+
+    <!-- Taichung Attractions -->
+    <string name="taichung_attraction_name_1">Caihongjuan Village</string>
+    <string name="taichung_attraction_phone_1"></string>
+    <string name="taichung_attraction_address_1">No.56, Chunan Road, Nantun District, Taichung, Taiwan</string>
+    <string name="taichung_attraction_imageurl_1">http://i.imgur.com/cg06W0Y.jpg</string>
+    <string name="taichung_attraction_name_2">Tunghai University</string>
+    <string name="taichung_attraction_phone_2">+886-4-2359-0121</string>
+    <string name="taichung_attraction_address_2">No.1727, Section 4, Taiwan Ave, Taichung 40704, Taiwan</string>
+    <string name="taichung_attraction_imageurl_2">http://i.imgur.com/hng4vPp.jpg</string>
+    <string name="taichung_attraction_name_3">Wuling Farm</string>
+    <string name="taichung_attraction_phone_3">+886-4-2590-1259</string>
+    <string name="taichung_attraction_address_3">No.3-1 Wuling Road | Pingdeng Vil., Heping District, Taichung 42495, Taiwan</string>
+    <string name="taichung_attraction_imageurl_3">http://i.imgur.com/YQ92pjp.jpg</string>
+    <string name="taichung_attraction_name_4">Kaomei Wetlan</string>
+    <string name="taichung_attraction_phone_4"></string>
+    <string name="taichung_attraction_address_4">Gaomei Road, Qingshui District, Taichung, Taiwan</string>
+    <string name="taichung_attraction_imageurl_4">http://i.imgur.com/Rg64Z0V.jpg</string>
+
+    <!-- Tainan Attractions -->
+    <string name="tainan_attraction_name_1">Chimei Museum</string>
+    <string name="tainan_attraction_phone_1">+886-6-266-0808</string>
+    <string name="tainan_attraction_address_1">No 66, Sec. 2, Wenhua Rd., Rende Dist., Tainan 71702, Taiwan</string>
+    <string name="tainan_attraction_imageurl_1">http://i.imgur.com/IUdAThF.jpg</string>
+    <string name="tainan_attraction_name_2">Anping Tree House</string>
+    <string name="tainan_attraction_phone_2">+886-6-391-3901</string>
+    <string name="tainan_attraction_address_2">No.106-108 Gubao Street, Anping District, Tainan, Taiwan</string>
+    <string name="tainan_attraction_imageurl_2">http://i.imgur.com/w2MLUho.jpg</string>
+    <string name="tainan_attraction_name_3">Chihkan Tower</string>
+    <string name="tainan_attraction_phone_3">+886-6-220-5247</string>
+    <string name="tainan_attraction_address_3">No.212 Section 2, Minzu Road, Zhongxi District, Tainan, Taiwan</string>
+    <string name="tainan_attraction_imageurl_3">http://i.imgur.com/9SJmaKa.jpg</string>
+    <string name="tainan_attraction_name_4">Ten Drum Culture Village</string>
+    <string name="tainan_attraction_phone_4">+886-6-266-2225</string>
+    <string name="tainan_attraction_address_4">No.326, Section 2, Wenhua Road, Rende District, Tainan 71755, Taiwan</string>
+    <string name="tainan_attraction_imageurl_4">http://i.imgur.com/9jhLrFI.jpg</string>
+    <string name="tainan_attraction_name_5">Confucius Temple</string>
+    <string name="tainan_attraction_phone_5">+886-6-228-9013</string>
+    <string name="tainan_attraction_address_5">No.2 Nanmen Road, Tainan, Taiwan</string>
+    <string name="tainan_attraction_imageurl_5">http://i.imgur.com/EChmD8n.jpg</string>
+
+    <!-- Kaohsiung Attractions -->
+    <string name="kaohsiung_attraction_name_1">Kaohsiung Main Public Library</string>
+    <string name="kaohsiung_attraction_phone_1">+886-7-536-0238</string>
+    <string name="kaohsiung_attraction_address_1">No.61 Singuang Rd., Cianjhen Dist., Kaohsiung 821, Taiwan</string>
+    <string name="kaohsiung_attraction_imageurl_1">http://i.imgur.com/Ktyw2Be.jpg</string>
+    <string name="kaohsiung_attraction_name_2">Cijin Island</string>
+    <string name="kaohsiung_attraction_phone_2"></string>
+    <string name="kaohsiung_attraction_address_2">Haian Rd., Qijin Dist., Kaohsiung, Taiwan</string>
+    <string name="kaohsiung_attraction_imageurl_2">http://i.imgur.com/VjcG3ho.jpg</string>
+    <string name="kaohsiung_attraction_name_3">Dragon Tiger Tower</string>
+    <string name="kaohsiung_attraction_phone_3"></string>
+    <string name="kaohsiung_attraction_address_3">Liantan Rd., Zuoyin Dist., Kaohsiung, Taiwan</string>
+    <string name="kaohsiung_attraction_imageurl_3">http://i.imgur.com/gjw4q2p.jpg</string>
+    <string name="kaohsiung_attraction_name_4">The Dome of Light</string>
+    <string name="kaohsiung_attraction_phone_4"></string>
+    <string name="kaohsiung_attraction_address_4">Meilidaozhan, Kaohsiung, Taiwan</string>
+    <string name="kaohsiung_attraction_imageurl_4">http://i.imgur.com/t19Gn09.jpg</string>
+    <string name="kaohsiung_attraction_name_5">Ai He (Love River)</string>
+    <string name="kaohsiung_attraction_phone_5">+886-7-799-5678</string>
+    <string name="kaohsiung_attraction_address_5">Min Sheng 2nd Road, Kaohsiung, Taiwan</string>
+    <string name="kaohsiung_attraction_imageurl_5">http://i.imgur.com/Nqhfkig.jpg</string>
+</resources>
