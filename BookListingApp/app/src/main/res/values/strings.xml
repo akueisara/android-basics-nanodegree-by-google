@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Book Listing App</string>
+    <string name="keyword">Keyword...</string>
+    <string name="btn_search">Search</string>
+    <string name="book_title">Professional Android 4 Application Development</string>
+    <string name="book_authors">Reto Meier</string>
+    <string name="no_authors">No Authors</string>
+    <string name="book_description">Provides information on using Android 3 to build and enhance mobile applications, covering such topics as creating user interfaces, using intents, databases, creating and controlling services, creating app widgets, playing audio and video, telphony, and using sensors. Original.</string>
+    <string name="no_description">No Description</string>
+    <string name="result_not_found">No results found.</string>
+    <string name="enter_search_keyword">Please enter keywords to search for books.</string>
+</resources>
