@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="news_title">Bangladesh v England: second one-day international – live!</string>
+    <string name="type">Type</string>
+    <string name="news_type">liveblog</string>
+    <string name="date">Date</string>
+    <string name="news_date">2016-10-09T11:18:14Z</string>
+    <string name="news_section">sport</string>
+    <string name="no_news">No news found.</string>
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Politics, Music, Science...</string>
+
+</resources>
