@@ -43,3 +43,7 @@ The app implements a simple search engine for books by using Google Books API.
 
 <img src="http://i.imgur.com/iCGDd30.gif" width="270">
 
+## Project 8: [News App](https://github.com/akueisara/android-basics-nanodegree-by-google/tree/master/NewsApp)
+### Create an app to display recent news stories on a topic of your choice using a web API.
+
+<img src="http://i.imgur.com/gFtxUgc.gif" width="270">
