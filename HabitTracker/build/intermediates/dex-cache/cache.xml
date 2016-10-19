@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_70e07adf78fa2dc0167b6bb122b1b17d8068938f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_da9783083d5754a2ecaf7b0bc57645895ecab8d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_5fb4625283d7de8b72664b1ee804013ca32c9e93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_7a3e8f0ef39651060d6493700c7bb5d356f13ed2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\akueisara\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_b597585b0e80fa08df8fd19be8ade24b3a21e3d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\akueisara\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.4.0_bf228e19f23876a3f391ee4f2adff56241a34d8c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_f815891652144b4150737b2ee36d22108fe366c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_36840745bba0a8019bad4fa235cd1a42cb57579b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_6fdd84145ca40ecb33d486f8f86ef4689e5b845e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_f03bff13e40d9b0543b457927b83066bbce9fda2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.4.0_e34073e64ef561df22799ad4ff0ee6bb54129ea7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_d34da5ba9c105097936b8cab4516700ad715c460\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_60450f284aa025147c4c1b673cda33cc37ce1d17\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="90d98ad14f09ba58cf72c563f064d150cf66d951">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4e05e8d5e0749a1a9494db39068051deee805a4c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_bb36997355a466041b586e37bec532c8ead85511\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_ff220a70731677a466ddc7a39745dc496bce3dea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_03dd2499273ece3dc9e0b82a1093d14dc0ade730\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_232e20af0edaa60ec640622673e48922f8a719f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6088a39d3e6c014235813289f98763597263be7a">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7ce7d5a394b6489945e9db01877e26d65bca9644\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_d2ed7914ced814029dd3d4138ff2384842257af8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\program\Android\HabitTracker\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\program\Android\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_61a5dcd09d7d1c0ec8d9a0ed53d98e15b8a2e34c\classes.dex" />
+    </item>
+
+</items>
