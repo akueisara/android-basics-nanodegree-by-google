@@ -47,3 +47,13 @@ The app implements a simple search engine for books by using Google Books API.
 ### Create an app to display recent news stories on a topic of your choice using a web API.
 
 <img src="http://i.imgur.com/gFtxUgc.gif" width="270">
+
+## Project 9: [Habit Tracker App](https://github.com/akueisara/android-basics-nanodegree-by-google/tree/master/HabitTracker)
+### Create an app to track your habits.
+
+<img src="http://i.imgur.com/rVbbZI9.gif" width="270">
+
+## Project 10: [Inventory App](https://github.com/akueisara/android-basics-nanodegree-by-google/tree/master/InventoryApp)
+### Create an app to track the inventory of a retail store, including current stock and supplier information.
+
+<img src="http://i.imgur.com/rVbbZI9.gif" width="270">
