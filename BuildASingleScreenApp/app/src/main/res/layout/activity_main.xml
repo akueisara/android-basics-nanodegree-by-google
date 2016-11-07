@@ -23,8 +23,7 @@
 
         <TextView
             android:id="@+id/text_view_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/CustomTextViewStyle"
             android:layout_below="@id/image_view_restaurant"
             android:layout_centerHorizontal="true"
             android:padding="16dp"
@@ -41,9 +40,13 @@
 
             <LinearLayout
                 android:id="@+id/linear_layout_address"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                style="@style/HorizontalLinearLayoutStyle">
+
+                <TextView
+                    style="@style/CustomTextViewStyle"
+                    android:layout_marginLeft="8dp"
+                    android:text="@string/address"
+                    android:id="@+id/textView" />
 
                 <ImageView
                     android:id="@+id/image_view_address"
@@ -53,20 +56,12 @@
                     android:scaleType="centerInside"
                     android:src="@drawable/ic_address" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="8dp"
-                    android:text="@string/address" />
-
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/linear_layout_phone"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:orientation="horizontal">
+                style="@style/HorizontalLinearLayoutStyle"
+                android:layout_marginTop="8dp">
 
                 <ImageView
                     android:id="@+id/image_view_phone"
@@ -77,10 +72,10 @@
                     android:src="@drawable/ic_phone" />
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/CustomTextViewStyle"
                     android:layout_marginLeft="8dp"
-                    android:text="@string/phone_number" />
+                    android:text="@string/phone_number"
+                    android:autoLink="phone" />
 
             </LinearLayout>
         </LinearLayout>
