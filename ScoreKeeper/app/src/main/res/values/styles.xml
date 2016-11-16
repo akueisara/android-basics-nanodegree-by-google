@@ -6,4 +6,28 @@
         <!-- Background color of buttons in the app -->
         <item name="colorButtonNormal">#FF9800</item>
     </style>
+    <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/button_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/button_horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/button_vertical_margin</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="TeamTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/team_title_padding</item>
+        <item name="android:textColor">@color/team_title_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="ScoreTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingBottom">@dimen/score_padding</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">56sp</item>
+    </style>
 </resources>

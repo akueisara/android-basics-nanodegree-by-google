@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Football Scores App</string>
+    <string name="teat_a">Team A</string>
+    <string name="teat_b">Team B</string>
+    <string name="team_score">0</string>
+    <string name="plus_six_points">+6 Points</string>
+    <string name="plus_three_points">+3 Points</string>
+    <string name="plus_two_points">+2 Points</string>
+    <string name="plus_one_point">+1 Point</string>
+    <string name="reset">Reset</string>
 </resources>
