@@ -23,4 +23,6 @@
     <string name="option_q_5_2">long</string>
     <string name="option_q_5_3">static</string>
     <string name="option_q_5_4">end</string>
+    <string name="your_score_is">Your Score is</string>
+    <string name="make_sure_answer_questions">Please make sure you answer all the questions</string>
 </resources>
