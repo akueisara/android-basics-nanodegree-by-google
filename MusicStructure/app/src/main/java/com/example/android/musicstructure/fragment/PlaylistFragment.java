@@ -13,6 +13,7 @@ import android.widget.ListView;
 
 import com.example.android.musicstructure.activity.ViewerActivity;
 import com.example.android.musicstructure.R;
+import com.example.android.musicstructure.utils.Album;
 import com.example.android.musicstructure.utils.Playlist;
 import com.example.android.musicstructure.utils.Song;
 
@@ -32,12 +33,14 @@ public class PlaylistFragment extends Fragment {
         ListView listView = (ListView) playlist.findViewById(R.id.listView);
 
         final ArrayList<Playlist> items = new ArrayList<Playlist>();
-        Song song1 = new Song("Song 1", "Artist 1", "Album 1");
-        Song song2 = new Song("Song 2", "Artist 2", "Album 2");
-        Song song3 = new Song("Song 3", "Artist 3", "Album 3");
-        Song song4 = new Song("Song 4", "Artist 4", "Album 4");
-        Playlist playlist1 = new Playlist("Playlist 1", new Song[]{song3, song4});
-        Playlist playlist2 = new Playlist("Playlist 2", new Song[]{song2, song4});
+        Song song1 = new Song(getString(R.string.song_1), getString(R.string.artist_1), getString(R.string.album_1));
+        Song song2 = new Song(getString(R.string.song_2), getString(R.string.artist_2), getString(R.string.album_2));
+        Song song3 = new Song(getString(R.string.song_3), getString(R.string.artist_1), getString(R.string.album_1));
+        Song song4 = new Song(getString(R.string.song_4), getString(R.string.artist_2), getString(R.string.album_2));
+        Album album1 = new Album(getString(R.string.album_1), new Song[]{song1, song3});
+        Album album2 = new Album(getString(R.string.album_2), new Song[]{song2, song4});
+        Playlist playlist1 = new Playlist(getString(R.string.playlist_1), new Song[]{song3, song4});
+        Playlist playlist2 = new Playlist(getString(R.string.playlist_2), new Song[]{song2, song4});
         song2.setPlaylist(new Playlist[]{playlist2});
         song3.setPlaylist(new Playlist[]{playlist1});
         song4.setPlaylist(new Playlist[]{playlist1, playlist2});

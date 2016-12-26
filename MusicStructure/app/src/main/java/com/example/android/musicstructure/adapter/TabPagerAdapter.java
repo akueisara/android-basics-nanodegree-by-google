@@ -9,9 +9,6 @@ import com.example.android.musicstructure.fragment.ArtistFragment;
 import com.example.android.musicstructure.fragment.PlaylistFragment;
 import com.example.android.musicstructure.fragment.SongFragment;
 
-/**
- * Created by akueisara on 9/25/2016.
- */
 public class TabPagerAdapter extends FragmentStatePagerAdapter {
     public TabPagerAdapter(FragmentManager fm) {
         super(fm);

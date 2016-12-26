@@ -30,14 +30,14 @@ public class ArtistFragment extends Fragment {
         View artist = inflater.inflate(R.layout.frag_artist, container, false);
 
         final ArrayList<Artist> items = new ArrayList<Artist>();
-        Song song1 = new Song("Song 1", "Artist 1", "Album 1");
-        Song song2 = new Song("Song 2", "Artist 2", "Album 2");
-        Song song3 = new Song("Song 3", "Artist 1", "Album 1");
-        Song song4 = new Song("Song 4", "Artist 2", "Album 2");
-        Album album1 = new Album("Album 1", new Song[]{song1, song3});
-        Album album2 = new Album("Album 2", new Song[]{song2, song4});
-        Artist artist1 = new Artist("Artist1", new Song[]{song1, song3}, new Album[]{album1});
-        Artist artist2 = new Artist("Artist2", new Song[]{song2, song4}, new Album[]{album2});
+        Song song1 = new Song(getString(R.string.song_1), getString(R.string.artist_1), getString(R.string.album_1));
+        Song song2 = new Song(getString(R.string.song_2), getString(R.string.artist_2), getString(R.string.album_2));
+        Song song3 = new Song(getString(R.string.song_3), getString(R.string.artist_1), getString(R.string.album_1));
+        Song song4 = new Song(getString(R.string.song_4), getString(R.string.artist_2), getString(R.string.album_2));
+        Album album1 = new Album(getString(R.string.album_1), new Song[]{song1, song3});
+        Album album2 = new Album(getString(R.string.album_2), new Song[]{song2, song4});
+        Artist artist1 = new Artist(getString(R.string.artist_1), new Song[]{song1, song3}, new Album[]{album1});
+        Artist artist2 = new Artist(getString(R.string.artist_2), new Song[]{song2, song4}, new Album[]{album2});
         items.add(artist1);
         items.add(artist2);
 

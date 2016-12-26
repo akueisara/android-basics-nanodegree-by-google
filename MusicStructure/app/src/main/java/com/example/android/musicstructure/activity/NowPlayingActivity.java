@@ -20,7 +20,7 @@ public class NowPlayingActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setTitle("Now playing");
+        getSupportActionBar().setTitle(getString(R.string.activity_nowplaying_title));
         TextView textView = (TextView) findViewById(R.id.textview_nowplaying);
         String song = getIntent().getStringExtra("song");
         textView.setText(song);

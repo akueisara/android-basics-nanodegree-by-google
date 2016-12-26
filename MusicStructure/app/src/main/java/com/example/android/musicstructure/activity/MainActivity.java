@@ -54,10 +54,10 @@ public class MainActivity extends FragmentActivity {
         };
 
         //Add New Tab
-        actionBar.addTab(actionBar.newTab().setText("Playlists").setTabListener(tabListener));
-        actionBar.addTab(actionBar.newTab().setText("Artists").setTabListener(tabListener));
-        actionBar.addTab(actionBar.newTab().setText("Albums").setTabListener(tabListener));
-        actionBar.addTab(actionBar.newTab().setText("Songs").setTabListener(tabListener));
+        actionBar.addTab(actionBar.newTab().setText(getString(R.string.tab_playlist)).setTabListener(tabListener));
+        actionBar.addTab(actionBar.newTab().setText(getString(R.string.tab_artist)).setTabListener(tabListener));
+        actionBar.addTab(actionBar.newTab().setText(getString(R.string.tab_album)).setTabListener(tabListener));
+        actionBar.addTab(actionBar.newTab().setText(getString(R.string.tab_song)).setTabListener(tabListener));
 
     }
 

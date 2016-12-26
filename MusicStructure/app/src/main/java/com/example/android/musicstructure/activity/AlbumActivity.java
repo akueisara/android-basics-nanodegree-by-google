@@ -35,12 +35,12 @@ public class AlbumActivity extends AppCompatActivity {
         getSupportActionBar().setTitle(albumName);
 
         final ArrayList<Song> items = new ArrayList<Song>();
-        Song song1 = new Song("Song 1", "Artist 1", "Album 1");
-        Song song2 = new Song("Song 2", "Artist 2", "Album 2");
-        Song song3 = new Song("Song 3", "Artist 1", "Album 1");
-        Song song4 = new Song("Song 4", "Artist 2", "Album 2");
-        Album album1 = new Album("Album 1", new Song[]{song1, song3});
-        Album album2 = new Album("Album 2", new Song[]{song2, song4});
+        Song song1 = new Song(getString(R.string.song_1), getString(R.string.artist_1), getString(R.string.album_1));
+        Song song2 = new Song(getString(R.string.song_2), getString(R.string.artist_2), getString(R.string.album_2));
+        Song song3 = new Song(getString(R.string.song_3), getString(R.string.artist_1), getString(R.string.album_1));
+        Song song4 = new Song(getString(R.string.song_4), getString(R.string.artist_2), getString(R.string.album_2));
+        Album album1 = new Album(getString(R.string.album_1), new Song[]{song1, song3});
+        Album album2 = new Album(getString(R.string.album_2), new Song[]{song2, song4});
         if(albumName.equals(album1.getAlbumName())) {
             Song[] songs = album1.getSongs();
             for(Song s: songs) {

@@ -28,6 +28,7 @@ public class ViewerActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         TextView textView = (TextView) findViewById(R.id.textview_viewer);
         String fragment = getIntent().getStringExtra("fragment");
+
         if(fragment.equals("Playlist")) {
             String playlist = getIntent().getStringExtra("playlist");
             getSupportActionBar().setTitle(playlist);
@@ -45,6 +46,7 @@ public class ViewerActivity extends AppCompatActivity {
                                             }
             );
         }
+
         if(fragment.equals("Album")) {
             String album = getIntent().getStringExtra("album");
             getSupportActionBar().setTitle(album);
@@ -62,6 +64,7 @@ public class ViewerActivity extends AppCompatActivity {
                                             }
             );
         }
+
         if(fragment.equals("Artist")) {
             String artist = getIntent().getStringExtra("artist");
             getSupportActionBar().setTitle(artist);

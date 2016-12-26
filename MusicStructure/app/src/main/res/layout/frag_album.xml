@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Display the list of albums" />
+        android:text="@string/action_frag_album" />
 
     <ListView
         android:layout_width="match_parent"

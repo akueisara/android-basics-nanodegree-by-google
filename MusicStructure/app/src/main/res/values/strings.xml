@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Musical Structure</string>
+
+    <string name="activity_nowplaying_title">Now playing</string>
+
+    <string name="tab_playlist">Playlists</string>
+    <string name="tab_artist">Artists</string>
+    <string name="tab_album">Albums</string>
+    <string name="tab_song">Songs</string>
+
+    <string name="song_1">Song 1</string>
+    <string name="song_2">Song 2</string>
+    <string name="song_3">Song 3</string>
+    <string name="song_4">Song 4</string>
+    <string name="artist_1">Artist 1</string>
+    <string name="artist_2">Artist 2</string>
+    <string name="album_1">Album 1</string>
+    <string name="album_2">Album 2</string>
+    <string name="playlist_1">Playlist 1</string>
+    <string name="playlist_2">Playlist 2</string>
+
+    <string name="action_activity_nowplaying">Will use MediaPlayer to play music</string>
+    <string name="action_frag_album">Display the list of albums</string>
+    <string name="action_frag_artist">Display the list of artists</string>
+    <string name="action_frag_playlist">Display the list of playlists</string>
+    <string name="action_frag_song">Display the list of songs</string>
+
 </resources>

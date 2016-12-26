@@ -13,18 +13,14 @@ import android.widget.ListView;
 import com.example.android.musicstructure.activity.NowPlayingActivity;
 import com.example.android.musicstructure.activity.ViewerActivity;
 import com.example.android.musicstructure.R;
+import com.example.android.musicstructure.utils.Album;
 import com.example.android.musicstructure.utils.Playlist;
 import com.example.android.musicstructure.utils.Song;
 
 import java.util.ArrayList;
 
-/**
- * Created by akueisara on 9/25/2016.
- */
 public class SongFragment extends Fragment {
     ArrayAdapter<Song> mAdapter;
-//    String[] items = {"Song 1", "Song 2", "Song 3", "Song 4"};
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -32,12 +28,14 @@ public class SongFragment extends Fragment {
         View song = inflater.inflate(R.layout.frag_song, container, false);
 
         final ArrayList<Song> items = new ArrayList<Song>();
-        Song song1 = new Song("Song 1", "Artist 1", "Album 1");
-        Song song2 = new Song("Song 2", "Artist 2", "Album 2");
-        Song song3 = new Song("Song 3", "Artist 1", "Album 1");
-        Song song4 = new Song("Song 4", "Artist 2", "Album 2");
-        Playlist playlist1 = new Playlist("Playlist 1", new Song[]{song3, song4});
-        Playlist playlist2 = new Playlist("Playlist 2", new Song[]{song2, song4});
+        Song song1 = new Song(getString(R.string.song_1), getString(R.string.artist_1), getString(R.string.album_1));
+        Song song2 = new Song(getString(R.string.song_2), getString(R.string.artist_2), getString(R.string.album_2));
+        Song song3 = new Song(getString(R.string.song_3), getString(R.string.artist_1), getString(R.string.album_1));
+        Song song4 = new Song(getString(R.string.song_4), getString(R.string.artist_2), getString(R.string.album_2));
+        Album album1 = new Album(getString(R.string.album_1), new Song[]{song1, song3});
+        Album album2 = new Album(getString(R.string.album_2), new Song[]{song2, song4});
+        Playlist playlist1 = new Playlist(getString(R.string.playlist_1), new Song[]{song3, song4});
+        Playlist playlist2 = new Playlist(getString(R.string.playlist_2), new Song[]{song2, song4});
         song2.setPlaylist(new Playlist[]{playlist2});
         song3.setPlaylist(new Playlist[]{playlist1});
         song4.setPlaylist(new Playlist[]{playlist1, playlist2});
