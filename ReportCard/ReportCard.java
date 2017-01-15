@@ -1,61 +1,58 @@
 package io.github.akueisara.reportcard;
 
-/**
- * Created by akueisara on 9/28/2016.
- */
 public class ReportCard {
-    private int studentID;
-    private String studentName;
-    private String course;
-    private int grade;
-    private String semester;
+    private int mStudentID;
+    private String mStudentName;
+    private String mCourse;
+    private int mGrade;
+    private String mSemester;
 
     public ReportCard(int studentID, String studentName, String course, int grade, String semester) {
-        this.studentID = studentID;
-        this.studentName = studentName;
-        this.course = course;
-        this.grade = grade;
-        this.semester = semester;
+        this.mStudentID = studentID;
+        this.mStudentName = studentName;
+        this.mCourse = course;
+        this.mGrade = grade;
+        this.mSemester = semester;
     }
 
     public int getStudentID() {
-        return studentID;
+        return mStudentID;
     }
 
     public void setStudentID(int id) {
-        studentID = id;
+        mStudentID = id;
     }
 
     public String getStudentName() {
-        return studentName;
+        return mStudentName;
     }
 
     public void setStudentName(String name) {
-        studentName = name;
+        mStudentName = name;
     }
 
     public String getCourse() {
-        return course;
+        return mCourse;
     }
 
     public void setCourse(String course) {
-        this.course = course;
+        this.mCourse = course;
     }
 
     public int getGrade() {
-        return grade;
+        return mGrade;
     }
 
     public void setGrade(int grade) {
-        this.grade = grade;
+        this.mGrade = grade;
     }
 
     public String getSemester() {
-        return semester;
+        return mSemester;
     }
 
     public void setSemester(String semester) {
-        this.semester = semester;
+        this.mSemester = semester;
     }
 
     public String getLetterGrade(int grade){
@@ -80,11 +77,11 @@ public class ReportCard {
     @Override
     public String toString() {
         return "ReportCard{" +
-                "studentID=" + studentID +
-                ", studentName='" + studentName + '\'' +
-                ", course='" + course + '\'' +
-                ", grade=" + grade +
-                ", semester='" + semester + '\'' +
+                "studentID=" + mStudentID +
+                ", studentName='" + mStudentName + '\'' +
+                ", course='" + mCourse + '\'' +
+                ", grade=" + mGrade +
+                ", semester='" + mSemester + '\'' +
                 '}';
     }
 }
