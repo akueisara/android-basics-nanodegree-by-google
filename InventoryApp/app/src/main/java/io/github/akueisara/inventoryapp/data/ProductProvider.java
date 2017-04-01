@@ -12,12 +12,6 @@ import android.util.Log;
 
 import io.github.akueisara.inventoryapp.data.ProductContract.ProductEntry;
 
-import static io.github.akueisara.inventoryapp.R.id.price;
-
-/**
- * Created by akueisara on 10/19/2016.
- */
-
 public class ProductProvider extends ContentProvider {
 
     public static final String LOG_TAG = ProductDbHelper.class.getSimpleName();

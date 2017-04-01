@@ -6,10 +6,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import io.github.akueisara.inventoryapp.data.ProductContract.ProductEntry;
 
-/**
- * Created by akueisara on 10/19/2016.
- */
-
 public class ProductDbHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "inventory.db";

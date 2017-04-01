@@ -35,4 +35,8 @@
     <string name="delete_product_failed">Error with deleting product</string>
     <string name="delete_product_successful">Product deleted</string>
     <string name="product_info_not_empty">Please fill out all the required information</string>
+    <string name="external_storage">External storage</string>
+    <string name="permission_title">Permission necessary</string>
+    <string name="permission_message">permission is necessary</string>
+    <string name="permission_denied">Permission Denied</string>
 </resources>

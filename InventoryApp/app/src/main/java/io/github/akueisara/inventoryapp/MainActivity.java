@@ -12,13 +12,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.ListView;
 
 import io.github.akueisara.inventoryapp.data.ProductContract.ProductEntry;
-
-import static android.R.attr.data;
-import static io.github.akueisara.inventoryapp.R.string.add_product;
 
 public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor>  {
 
@@ -61,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     private void showAddProductDialog() {
         AddDialogFragment newFragment = new AddDialogFragment();
-        newFragment.show(getFragmentManager(), getString(R.string.add_product));
+        newFragment.show(getSupportFragmentManager(), getString(R.string.add_product));
     }
 
     @Override
